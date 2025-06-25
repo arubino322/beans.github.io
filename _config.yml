@@ -145,7 +145,15 @@ paginate: 10
 
 # The base URL of your site
 baseurl: ""
+
 # testing
+source: .
+lsi: false
+highlighter: rouge
+
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
 
 # ------------ The following options are not recommended to be modified ------------------
 
